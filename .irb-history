@@ -1,0 +1,47 @@
+reinstall_apps
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+exit
+reinstall_apps
+start_test_server_in_background
+exit
+reinstall_apps
+start_test_server_in_background
+exit
+reinstall_apps
+start_test_server_in_background
+exit
+reinstall_apps
+start_test_server_in_background
+reinstall_apps
+exit
+    wait_for_elements_exist(["* text:'#{id}'"], :timeout => timeout)
+    wait_for_elements_exist(["* text:'#{id}'"], :timeout => timeout)
+wait_for_elements(["* id:'#{id}'"], :timeout => timeout)
+exit
+exit
+wait_for_element_exists("* id:'etProfileFName' text:'First Name LastName'", :timeout => timeout)
+wait_for_element_exists("* id:'btnNotRegistered' text:'SIGN UP'", :timeout => timeout)
+exit
+Query(*)
+Query("*")
+touch(query("* id:'etProfileFName'"))
+touch(query("* id:'etProfileFName'"))
+exit
+reinstall_apps
+start_test_in_background
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+exit
+reinstall_apps
+start_test_server_in_background
+exit
+touch(query("* id:'input_password'"))
+exit
